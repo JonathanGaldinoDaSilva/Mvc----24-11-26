@@ -95,3 +95,4 @@
 /Users/DS1/Mvc -  24-11-26/CadastroProdutos/obj/Debug/net10.0/CadastroProdutos.pdb
 /Users/DS1/Mvc -  24-11-26/CadastroProdutos/obj/Debug/net10.0/CadastroProdutos.genruntimeconfig.cache
 /Users/DS1/Mvc -  24-11-26/CadastroProdutos/obj/Debug/net10.0/ref/CadastroProdutos.dll
+/Users/DS1/Mvc -  24-11-26/CadastroProdutos/obj/Debug/net10.0/CadastroProdutos.sourcelink.json

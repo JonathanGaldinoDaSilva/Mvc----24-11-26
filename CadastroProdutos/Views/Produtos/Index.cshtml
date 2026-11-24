@@ -1,0 +1,34 @@
+@model List<CadastroProdutos.Models.Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+<h1>Cadastro de produtos</h1>
+
+<p>Bem-vindo ao sistema de gerenciamento de produtos</p>
+
+<button class="btn btn-primary"> novo produto</button>
+
+
+<table class="table table-striped trable-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>nome</th>
+            <th>preco</th>
+            <th>estoque</th>
+        </tr>
+    </thead>
+    <tbody>@foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.Id</td>
+                <td>@produto.Nome</td>
+                <td>R$ @produto.Preco.ToString("F2", System.Globalization.CultureInfo.GetCultureInfo("pt-br"))</td>
+                <td>@produto.Estoque</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
